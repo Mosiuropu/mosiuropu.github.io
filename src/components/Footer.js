@@ -58,7 +58,7 @@ export default function Footer() {
           <div>
             <p style={{ fontSize: '12px', fontWeight: 600, color: 'var(--text-tertiary)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '16px' }}>Connect</p>
             <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
-              📧 mosiuropu@gmail.com
+              📧 mosiurrahman.bari@gmail.com
             </p>
             <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
               🏛 BARI, Gazipur, Bangladesh
