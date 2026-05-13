@@ -66,7 +66,7 @@ function Hero() {
           lineHeight: 1.1,
           marginBottom: '24px',
         }}>
-          Md. Mosiur Rahman
+          Mosiur Rahman Apu
         </h1>
 
         {/* Tagline */}
@@ -350,7 +350,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const mailtoLink = `mailto:mosiuropu@gmail.com?subject=${encodeURIComponent(form.subject || 'Portfolio Inquiry')}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`)}`
+    const mailtoLink = `mosiurrahman.bari@gmail.com?subject=${encodeURIComponent(form.subject || 'Portfolio Inquiry')}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`)}`
     window.location.href = mailtoLink
     setSent(true)
   }
@@ -377,7 +377,7 @@ function Contact() {
             <p style={{ fontSize: '24px', marginBottom: '8px' }}>✓</p>
             <p style={{ fontWeight: 600, color: 'var(--text-primary)' }}>Opening your email client...</p>
             <p style={{ color: 'var(--text-tertiary)', fontSize: '14px', marginTop: '8px' }}>
-              Or email directly: mosiuropu@gmail.com
+              Or email directly: mosiurrahman.bari@gmail.com
             </p>
           </div>
         ) : (
@@ -424,7 +424,7 @@ function Contact() {
           display: 'flex', gap: '32px', justifyContent: 'center', flexWrap: 'wrap',
         }}>
           {[
-            { label: 'Email', val: 'mosiuropu@gmail.com', href: 'mailto:mosiuropu@gmail.com' },
+            { label: 'Email', val: 'mosiurrahman.bari@gmail.com', href: 'mailto:mosiurrahman.bari@gmail.com' },
             { label: 'Institution', val: 'BARI, Gazipur', href: 'https://bari.gov.bd' },
           ].map(item => (
             <div key={item.label} style={{ textAlign: 'center' }}>
