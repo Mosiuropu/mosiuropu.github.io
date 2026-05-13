@@ -1,0 +1,18 @@
+# Next.js
+.next/
+out/
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.local
+.env.production
