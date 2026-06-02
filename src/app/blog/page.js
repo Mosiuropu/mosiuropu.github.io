@@ -1,10 +1,6 @@
+'use client'
 import Link from 'next/link'
 import { getAllPosts } from '../../lib/markdown'
-
-export const metadata = {
-  title: 'Blog — Md. Mosiur Rahman',
-  description: 'Research notes on molecular breeding, floriculture, SSR markers, population genetics, and scientific insights from a career in agricultural research.',
-}
 
 export default function BlogPage() {
   const posts = getAllPosts('blog')
