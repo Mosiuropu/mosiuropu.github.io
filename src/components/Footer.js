@@ -180,11 +180,11 @@ export default function Footer() {
             >
               {[
                 {
-                  href: 'https://scholar.google.com/citations?user=MosiurRahmanApu',
+                  href: 'https://bit.ly/4dVcrYP',
                   label: 'Google Scholar',
                 },
                 {
-                  href: 'https://www.researchgate.net/profile/Mosiur-Rahman-Apu',
+                  href: 'https://www.researchgate.net/profile/Mosiur-Apu',
                   label: 'ResearchGate',
                 },
                 {
@@ -194,6 +194,10 @@ export default function Footer() {
                 {
                   href: 'https://orcid.org/0000-0002-6690-7903',
                   label: 'ORCID',
+                },
+                {
+                  href: 'https://github.com/Mosiuropu',
+                  label: 'GitHub',
                 },
               ].map((link) => (
                 <a

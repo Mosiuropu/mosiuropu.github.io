@@ -97,14 +97,9 @@ export default function ResearchStatementPage() {
                 body: 'My dissertation at The University of Western Australia examined population structure and genetic diversity across 192 apple accessions using SSR, SCAR, and SNP markers. Analysed on the ABI 3130xl Genetic Analyser and scored with GeneMapper v5.0, the data were processed using GenAlEx 6.5 to calculate pairwise genetic distance matrices, construct UPGMA dendrograms, and perform principal coordinates analysis. The study identified distinct heterotic groups suitable for hybrid parent selection — a framework directly applicable to ornamental and vegetable crops at BARI. This work was supervised by Assoc. Prof. Michael Considine and Dr. Sultan Mia (UWA / Murdoch University) under the Australia Awards Scholarship.',
               },
               {
-                period: '2019–2022',
-                title: 'Botrytis Gray Mold of Lilium: Diagnosis, Study and Control',
-                body: 'As co-investigator, I contributed to the first systematic study of Botrytis cinerea on Lilium in Bangladesh. The project involved pathogen isolation, morphological and molecular identification, Koch\'s postulates, and evaluation of fungicide efficacy under controlled conditions. Results were published in Heliyon (SCIE + Scopus, Elsevier/Cell Press), 10(12), e33165 (2024), representing the first peer-reviewed record of this economically damaging disease on Lilium in the country.',
-              },
-              {
-                period: '2015–2018',
-                title: 'Evaluation and Characterisation of Lilium Germplasm',
-                body: 'Led morpho-physiological characterisation of Lilium germplasm collected from diverse agro-ecological zones. Evaluated bulb preservation protocols to enable offseason production — a significant constraint for Bangladeshi floriculture. Findings contributed to three publications in Bangladesh Journal of Agricultural Research, Journal of Ornamental Plants, and Current Horticulture.',
+                period: '2018–2020',
+                title: 'Varietal Evaluation and Planting Material Optimisation for Tuberose',
+                body: 'As co-investigator, evaluated variety performance and planting material types for tuberose (Polianthes tuberosa) production at BARI. The study assessed effects on growth, flowering time, and bulb yield across multiple planting cycles. Results were published in Journal of Ornamental Plants 10(3), 135–143 (2020), contributing to improved production protocols for one of Bangladesh\'s major cut-flower crops.',
               },
               {
                 period: '2016–2019',
@@ -340,21 +335,6 @@ export default function ResearchStatementPage() {
               }}
             >
               Email Me
-            </a>
-            <a
-              href="/cv.docx"
-              download="CV_MosiurRahman.docx"
-              style={{
-                padding: '12px 28px',
-                borderRadius: '9999px',
-                border: '1px solid var(--border-strong)',
-                color: 'var(--text-primary)',
-                fontSize: '14px',
-                fontWeight: 500,
-                textDecoration: 'none',
-              }}
-            >
-              Download CV
             </a>
             <Link
               href="/publications"

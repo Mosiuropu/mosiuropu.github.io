@@ -201,31 +201,6 @@ function Hero() {
           >
             View Research
           </Link>
-          <a
-            href="/cv.docx"
-            download="CV_MosiurRahman.docx"
-            style={{
-              padding: '14px 32px',
-              borderRadius: '9999px',
-              border: '1px solid var(--border-strong)',
-              color: 'var(--text-primary)',
-              fontSize: '14px',
-              fontWeight: '500',
-              textDecoration: 'none',
-              transition: 'all 0.2s',
-              background: 'transparent',
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.borderColor = 'var(--accent)'
-              e.currentTarget.style.color = 'var(--accent)'
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.borderColor = 'var(--border-strong)'
-              e.currentTarget.style.color = 'var(--text-primary)'
-            }}
-          >
-            Download CV
-          </a>
         </div>
 
         {/* Stats */}
@@ -241,8 +216,8 @@ function Hero() {
         >
           {[
             { num: '13+', label: 'Years Experience' },
-            { num: '7', label: 'Peer-Reviewed' },
-            { num: '7', label: 'Research Projects' },
+            { num: '8', label: 'Peer-Reviewed' },
+            { num: '5', label: 'Research Projects' },
             { num: '10+', label: 'Crop Species' },
           ].map((stat) => (
             <div key={stat.label} style={{ textAlign: 'center' }}>
@@ -585,19 +560,14 @@ function Experience() {
       org: 'Morphological and molecular characterisation of indigenous ground orchids for conservation and improvement · Funded: BARI',
     },
     {
-      period: '2019 – 2022',
+      period: '2018 – 2020',
       title: 'Co-Investigator',
-      org: 'Botrytis gray mold of Lilium in Bangladesh: Diagnosis, basic study and control · Published: Heliyon 10(12), e33165 (2024)',
+      org: 'Varietal evaluation and planting material optimisation for tuberose (Polianthes tuberosa) · Published: Journal of Ornamental Plants 10(3), 135–143 (2020)',
     },
     {
       period: '2016 – 2019',
       title: 'Principal Investigator',
       org: 'Varieties and disbudding effect on quality chrysanthemum production · Published: Bull. ITA, Kyushu University 42, 7–11 (2019)',
-    },
-    {
-      period: '2015 – 2018',
-      title: 'Co-Investigator',
-      org: 'Evaluation, characterisation and improved cultivation of Lilium in Bangladesh · Multiple publications in BJAR, J. Ornamental Horticulture, Current Horticulture',
     },
   ]
 
@@ -1177,6 +1147,14 @@ function Publications() {
       note: 'Peer-Reviewed',
     },
     {
+      year: '2021',
+      authors: 'Tipu, M. M. H., Jahan, R., Rahman, J., Rahman, M. M., Islam, M. A., & Bhuyin Apu, M. M. R.',
+      title: 'Development of efficient integrated management package against sweet potato weevil (Cylas formicarius [Fabricius, 1798])',
+      journal: 'Acta Agriculturae Slovenica',
+      volume: '117(4), 1–4',
+      note: 'Scopus Q3',
+    },
+    {
       year: '2015',
       authors: 'Khan, M. H., Bhuiyan, S. R., Saha, K. C., Bhuyin, M. R. et al.',
       title: 'Variability, correlation and path coefficient analysis of bitter gourd',
@@ -1199,7 +1177,7 @@ function Publications() {
             Peer-reviewed research
           </h2>
           <p style={sectionSubtitle}>
-            7 articles in SCI, SCOPUS, and peer-reviewed journals spanning
+            8 articles in SCI, SCOPUS, and peer-reviewed journals spanning
             floriculture, molecular genetics, and crop science
           </p>
         </div>
@@ -1531,12 +1509,17 @@ function Contact() {
             {
               label: 'Google Scholar',
               val: 'Scholar Profile',
-              href: 'https://scholar.google.com/citations?user=MosiurRahmanApu',
+              href: 'https://bit.ly/4dVcrYP',
             },
             {
               label: 'ResearchGate',
-              val: 'Mosiur-Rahman-Apu',
-              href: 'https://www.researchgate.net/profile/Mosiur-Rahman-Apu',
+              val: 'Mosiur-Apu',
+              href: 'https://www.researchgate.net/profile/Mosiur-Apu',
+            },
+            {
+              label: 'GitHub',
+              val: 'Mosiuropu',
+              href: 'https://github.com/Mosiuropu',
             },
             {
               label: 'LinkedIn',

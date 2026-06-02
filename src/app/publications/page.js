@@ -55,6 +55,14 @@ const publications = [
     type: 'Peer-Reviewed',
   },
   {
+    year: '2021',
+    authors: 'Tipu, M. M. H., Jahan, R., Rahman, J., Rahman, M. M., Islam, M. A., & Bhuyin Apu, M. M. R.',
+    title: 'Development of efficient integrated management package against sweet potato weevil (Cylas formicarius [Fabricius, 1798])',
+    journal: 'Acta Agriculturae Slovenica',
+    volume: '117(4), 1–4',
+    type: 'Scopus Q3',
+  },
+  {
     year: '2015',
     authors: 'Khan, M. H., Bhuiyan, S. R., Saha, K. C., Bhuyin, M. R. et al.',
     title: 'Variability, correlation and path coefficient analysis of bitter gourd',
@@ -108,7 +116,7 @@ export default function PublicationsPage() {
             maxWidth: '520px',
             lineHeight: 1.7,
           }}>
-            7 articles published in SCI, SCOPUS, and peer-reviewed journals,
+            8 articles published in SCI, SCOPUS, and peer-reviewed journals,
             spanning molecular breeding, floriculture, and crop science
           </p>
         </div>

@@ -151,29 +151,6 @@ export default function Navbar() {
                 )}
               </button>
 
-              {/* CV Button */}
-              <a
-                href="/cv.docx"
-                download="CV_MosiurRahman.docx"
-                style={{
-                  padding: '8px 18px',
-                  borderRadius: '20px',
-                  background: 'var(--accent)',
-                  color: 'white',
-                  fontSize: '13px',
-                  fontWeight: '600',
-                  textDecoration: 'none',
-                  transition: 'all 0.2s',
-                  display: 'none',
-                  letterSpacing: '0.02em',
-                }}
-                className="md:inline-block"
-                onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
-                onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
-              >
-                CV
-              </a>
-
               {/* Mobile menu */}
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
