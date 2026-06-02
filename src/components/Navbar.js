@@ -28,7 +28,7 @@ export default function Navbar() {
     { href: '/#experience', label: 'Experience' },
     { href: '/portfolio', label: 'Research' },
     { href: '/publications', label: 'Publications' },
-    { href: '/blog', label: 'Blog' },
+    { href: '/research', label: 'Statement' },
     { href: '/#contact', label: 'Contact' },
   ]
 
@@ -153,9 +153,8 @@ export default function Navbar() {
 
               {/* CV Button */}
               <a
-                href="/cv.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/cv.docx"
+                download="CV_MosiurRahman.docx"
                 style={{
                   padding: '8px 18px',
                   borderRadius: '20px',

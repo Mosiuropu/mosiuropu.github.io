@@ -180,7 +180,7 @@ export default function Footer() {
             >
               {[
                 {
-                  href: 'https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID',
+                  href: 'https://scholar.google.com/citations?user=MosiurRahmanApu',
                   label: 'Google Scholar',
                 },
                 {

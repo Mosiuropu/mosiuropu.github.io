@@ -99,23 +99,22 @@ function Hero() {
       </div>
 
       <div style={{ ...section, textAlign: 'center', position: 'relative' }}>
-        {/* Badge */}
-        <div className="animate-fade-up" style={{ marginBottom: '32px' }}>
+        {/* Badges */}
+        <div className="animate-fade-up" style={{ marginBottom: '32px', display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <span style={badge}>
-            <svg
-              width="12"
-              height="12"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-            >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
               <path d="M12 2L2 7l10 5 10-5-10-5z" />
               <path d="M2 17l10 5 10-5" />
               <path d="M2 12l10 5 10-5" />
             </svg>
             Senior Scientific Officer &middot; BARI
+          </span>
+          <span style={{ ...badge, background: 'rgba(251,191,36,0.12)', color: '#b45309' }}>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+              <circle cx="12" cy="8" r="6" />
+              <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" />
+            </svg>
+            Australia Awards Scholar 2022
           </span>
         </div>
 
@@ -203,9 +202,8 @@ function Hero() {
             View Research
           </Link>
           <a
-            href="/cv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/cv.docx"
+            download="CV_MosiurRahman.docx"
             style={{
               padding: '14px 32px',
               borderRadius: '9999px',
@@ -244,8 +242,8 @@ function Hero() {
           {[
             { num: '13+', label: 'Years Experience' },
             { num: '7', label: 'Peer-Reviewed' },
-            { num: '5', label: 'Research Projects' },
-            { num: '4', label: 'Crop Species' },
+            { num: '7', label: 'Research Projects' },
+            { num: '10+', label: 'Crop Species' },
           ].map((stat) => (
             <div key={stat.label} style={{ textAlign: 'center' }}>
               <p
@@ -1531,9 +1529,14 @@ function Contact() {
               href: 'https://orcid.org/0000-0002-6690-7903',
             },
             {
+              label: 'Google Scholar',
+              val: 'Scholar Profile',
+              href: 'https://scholar.google.com/citations?user=MosiurRahmanApu',
+            },
+            {
               label: 'ResearchGate',
               val: 'Mosiur-Rahman-Apu',
-              href: 'https://www.researchgate.net/profile/Mosiur-Apu',
+              href: 'https://www.researchgate.net/profile/Mosiur-Rahman-Apu',
             },
             {
               label: 'LinkedIn',
