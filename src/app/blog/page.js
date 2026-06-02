@@ -1,6 +1,10 @@
-'use client'
 import Link from 'next/link'
 import { getAllPosts } from '../../lib/markdown'
+
+export const metadata = {
+  title: 'Blog — Md. Mosiur Rahman',
+  description: 'Research notes on molecular breeding, floriculture, SSR markers, population genetics, and scientific insights.',
+}
 
 export default function BlogPage() {
   const posts = getAllPosts('blog')
@@ -73,28 +77,16 @@ export default function BlogPage() {
                 href={`/blog/${post.slug}`}
                 style={{ textDecoration: 'none' }}
               >
-                <article
-                  style={{
-                    background: 'var(--card-bg)',
-                    border: '0.5px solid var(--card-border)',
-                    borderRadius: '20px',
-                    padding: '28px 32px',
-                    boxShadow: 'var(--card-shadow)',
-                    transition: 'all 0.2s',
-                    cursor: 'pointer',
-                    display: 'block',
-                  }}
-                  onMouseEnter={e => {
-                    e.currentTarget.style.transform = 'translateY(-3px)'
-                    e.currentTarget.style.boxShadow = '0 12px 40px rgba(0,0,0,0.08)'
-                    e.currentTarget.style.borderColor = 'var(--border-accent)'
-                  }}
-                  onMouseLeave={e => {
-                    e.currentTarget.style.transform = 'translateY(0)'
-                    e.currentTarget.style.boxShadow = 'var(--card-shadow)'
-                    e.currentTarget.style.borderColor = 'var(--card-border)'
-                  }}
-                >
+                <article style={{
+                  background: 'var(--card-bg)',
+                  border: '0.5px solid var(--card-border)',
+                  borderRadius: '20px',
+                  padding: '28px 32px',
+                  boxShadow: 'var(--card-shadow)',
+                  transition: 'all 0.2s',
+                  cursor: 'pointer',
+                  display: 'block',
+                }}>
                   <div style={{
                     display: 'flex',
                     alignItems: 'center',
